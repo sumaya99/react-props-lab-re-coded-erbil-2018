@@ -25,5 +25,3 @@ Spaceship.defaultProps = {
 }
 
 export default Spaceship;
-
-export default Spaceship;
