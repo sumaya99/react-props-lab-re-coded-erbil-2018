@@ -1,7 +1,6 @@
-// Code The Spaceship Component Here
 import React from 'react';
 
- export default class Spaceship extends React.Component {
+class Spaceship extends React.Component {
   render() {
     const { name, speed, hasRockets, colors } = this.props;
 
@@ -24,5 +23,7 @@ Spaceship.defaultProps = {
   hasRockets: false,
   colors: ['black', 'red']
 }
+
+export default Spaceship;
 
 export default Spaceship;
